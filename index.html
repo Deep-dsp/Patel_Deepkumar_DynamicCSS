@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eEdu Student Portal * SASS Rebuild</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- this is the existing stylesheet - NOT created with SASS. Use this as a reference -->
+  <link rel="stylesheet" href="css/master.css">
+
+  <!-- rebuild the stylesheet with SASS using modules. When you're done, link in the new compiled CSS file -->
+  <!-- <link rel="stylesheet" href="css/path-to-compiled-sheet.css" -->
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <script src="js/respond.js"></script> -->
+</head>
+
+<body>
+  <div class="container-fluid wrapper">
+    <div class="row">
+      <!-- Sidebar content -->
+      <div class="col-sm-2 sidebarC">
+        <header class="sideHead">
+          <div class="imgText">
+            <img src="images/eEdu_profile.jpg" class="img-circle profileImg" alt="profile pic">
+            <p>ADMIN</p>
+          </div>
+        </header>
+
+        <!-- side nav -->
+        <nav class="sNav">
+          <ul class="list-unstyled text-uppercase text-muted">
+            <li><i class="fa fa-home"></i>Dashboard</li>
+            <li><i class="fa fa-folder-o"></i>File Manager</li>
+            <li><span class="glyphicon glyphicon-envelope"></span>Email</li>
+            <li><i class="fa fa-newspaper-o"></i>News</li>
+          </ul>
+        </nav>
+      </div>
+      <!-- End sidebar content -->
+
+      <!-- Main content -->
+      <div class="col-sm-10 bodyC">
+        <header class="mainHead">
+          <img class="clLogo" src="images/eEdu_ANUC_logo.jpg" alt="school logo">
+          <!-- Single button -->
+          <div class="dropdown yellowBoxNav">
+            <div class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-align-justify"></span>
+            </div>
+            <ul class="dropdown-menu dropdown-menu-right discussionDrop" role="menu" aria-labelledby="dropdownMenu1">
+              <li class="text-muted">
+                <div class="topPanel"><i class="fa fa-caret-up"></i>
+                  <p>Control Centre</p>
+                </div>
+              </li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i
+                    class="circleI fa fa-user"></i>Profile</a></li>
+              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i
+                    class="circleI fa fa-sliders fa-rotate-90"></i>Account</a></li>
+              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i
+                    class="circleI fa fa-power-off"></i>Log Out</a></li>
+            </ul>
+          </div>
+        </header>
+
+        <!-- Top Panel -->
+        <section id="topPanel" class="row">
+          <h2 class="hidden">Top Content</h2>
+          <!-- professor panel (absolute) -->
+          <div class="col-sm-12 bannerContainer">
+            <img class="img-responsive" src="images/eEdu_mainImg.jpg" alt="oil and gas banner" id="topImg">
+          </div>
+          <div class="profPanel panel panel-default">
+            <div class="profPanelText">
+
+              <!-- <h2 class="hidden">Prof Panel</h2> -->
+
+              <!-- REPLACE THIS CONTENT WITH DATA PULLED IN FROM classData.js -->
+
+              <p class="text-muted"><span class="text-primary"></span></p>
+              <p class="quoteCon">"BEING REALISTIC IS THE MOST COMMON PATH TO MEDIOCRITY"</p>
+              <!-- class times go here -->
+              <ul class="list-inline"></ul>
+
+              <!-- END DYNAMIC DATA -->
+            </div>
+
+            <img src="images/eEdu_prof.jpg" alt="prof image" class="img-circle profileImg">
+          </div>
+        </section>
+
+        <!-- STOP HERE - YOUR SASS REBUILD IS DONE -->
+   </div>
+  </body>
+</html>
