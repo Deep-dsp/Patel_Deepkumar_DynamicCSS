@@ -116,6 +116,13 @@
   margin-right: 8px;
 }
 
+.profPanel .quoteCon {
+  width: 350px;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+
 .profPanel p:first-child {
   font-size: 3rem;
   font-weight: 300;
