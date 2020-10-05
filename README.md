@@ -18,7 +18,7 @@ This is a school project where we have to rewrite CSS code using SASS framework 
 
 1. Deepkumar Patel(0953510)
 
-*** Under the guidance of professor : ```Trevor Van Rys``` ***
+**Under the guidance of professor** : ***```Trevor Van Rys```***
 
 
 ### License
