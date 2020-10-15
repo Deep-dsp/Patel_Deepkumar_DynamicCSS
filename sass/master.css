@@ -15,6 +15,7 @@
   cursor: pointer;
   background-color: #f3d83f;
   top: 50%;
+  left: 51%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 55px;
@@ -148,6 +149,32 @@
   border: 3px solid white;
 }
 
+#bottomPanel {
+  margin: 0;
+}
+
+.courseStuff {
+  margin: 0;
+}
+
+.courseInfo {
+  position: relative;
+  left: 40px;
+  font-weight: 300;
+  color: #969595;
+}
+
+.courseInfo h2 {
+  font-weight: 300;
+  font-size: 4.2rem;
+  padding-top: 10px;
+}
+
+.courseInfo h3 {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -161,10 +188,6 @@ body {
 
 .bannerContainer {
   padding: 0;
-}
-
-#bottomPanel {
-  margin: 0;
 }
 
 .sidebarC {
