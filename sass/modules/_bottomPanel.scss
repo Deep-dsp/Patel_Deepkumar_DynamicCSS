@@ -1,0 +1,25 @@
+#bottomPanel {
+    margin:0;
+  }
+
+.courseStuff{
+    margin: 0;
+}
+
+.courseInfo { 
+    position:relative;
+    left:40px;
+    font-weight:300;
+    color:#969595;
+
+    h2 { 
+        font-weight:300; 
+        font-size:4.2rem;
+        padding-top:10px;
+    }
+
+    h3 { 
+        font-weight:300; 
+        margin-bottom:15px; 
+    }
+}

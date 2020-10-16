@@ -3,6 +3,7 @@
 @import './modules/_mainHead.scss';
 @import './modules/_sNav.scss';
 @import './modules/_topPanel.scss';
+@import './modules/_bottomPanel.scss';
 
 body { 
     font-family: 'Lato', sans-serif; 
@@ -17,9 +18,7 @@ body {
 
 .bannerContainer { padding:0; }
 
-#bottomPanel {
-  margin:0;
-}
+
 
 .sidebarC { 
     background-color: $bgColor;
