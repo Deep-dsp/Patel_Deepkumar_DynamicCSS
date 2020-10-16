@@ -6,6 +6,8 @@
 
 This is a school project where we have to rewrite CSS code using SASS framework which can give us more insight about current industry standard SASS framework and that's the motive of this project.
 
+[About DynamicCSS content](https://docs.google.com/document/d/12TkZGq7Z3yEWa4sep0arBCxubONl9rV7027mO1W8gRA/edit?usp=sharing)
+
 ### Languages Used To Create Web Page:
 
 1. Html
@@ -13,8 +15,6 @@ This is a school project where we have to rewrite CSS code using SASS framework 
 3. SASS - Framework
 
 ### Authors
-
-**Here is the team of two who are responsible to create this awesome project.**
 
 1. Deepkumar Patel(0953510)
 
